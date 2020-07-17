@@ -35,9 +35,7 @@ end_time = time.time()
 print (f"{len(duplicates)} duplicates:\n\n{', '.join(duplicates)}\n\n")
 print (f"runtime: {end_time - start_time} seconds")
 
-# Cut 4 seconds off runtime
-# runtime: 20.13835906982422 seconds
-# runtime: 16.009796857833862 seconds
+
 # ---------- Stretch Goal -----------
 # Python has built-in tools that allow for a very efficient approach to this problem
 # What's the best time you can accomplish?  Thare are no restrictions on techniques or data
